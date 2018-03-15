@@ -1,0 +1,63 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+
+#netbeans
+nbproject/private/
+
+#tomcat
+/tomcat/logs/*
+/tomcat/work/*
+/tomcat/temp/*
+webapp/WEB-INF/classes/
+
+## build excludes
+/build/
+/dist/*
+
+
+######## OS Specific ############
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+#OSX
+.DS_Store
+Icon?
+G# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+#Linux
+!.gitignore
+!.gitattributes
+*~
+
+# KDE
+.directory
+*.rbc
+
+
+/week_4/Assign_1/self_service_portal/self_service/nbproject/private/
+/week_4/Assign_1/self_service_portal/JavaApplication2/nbproject/private/
+/week_4/Assign_1/self_service_portal/JavaApplication2/dist/
+/week_4/Assign_1/self_service_portal/JavaApplication2/build/
+/week_4/Assign_1/self_service_portal/JavaApplication5/nbproject/private/
+/week_4/Assign_1/self_service_portal/self_service!/nbproject/private/
+/week_4/Assign_1/self_service_portal/self_service!/build/
+/week_4/Assign_1/self_service_portal/self_service!/dist/
+/week_4/Assign_1/self_service_portal/self_service/build/
+/week_4/Assign_1/self_service_portal/self_service/dist/
